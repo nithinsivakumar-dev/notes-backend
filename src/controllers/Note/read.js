@@ -4,7 +4,6 @@ import ApiResponse from "../../utils/ApiResponse.js";
 const readAllNotes = async (req, res) => {
   try {
     const allNotes = await Note.find();
-    jskfdjk;
 
     res.status(200).send(allNotes);
   } catch (error) {
